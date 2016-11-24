@@ -23,7 +23,7 @@ public class BatchInsertParamsGenerator implements IMapperDataGenerator {
     public String genMapperData(CodeInfo codeInfo) {
         StringBuilder result = new StringBuilder();
         for (TableField tableField : codeInfo.getTableFields()) {
-            result.append(String.format(TEMPLATE, tableField.getDbFieldName(), tableField.getPoFieldName())).append(Constants.QUOTA);
+            result.append(String.format(TEMPLATE, tableField.getDbFieldName(), tableField.getDbFieldName())).append(Constants.QUOTA);
         }
         result.deleteCharAt(result.length() - 1);
         return result.toString();

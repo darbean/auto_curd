@@ -1,16 +1,15 @@
 <idea-plugin version="2">
   <id>lx</id>
-  <name>a</name>
+  <name>AutoCurd</name>
   <version>1.0</version>
   <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
 
   <description><![CDATA[
-      自动生成从mybatis mapper到dao层的增删改查代码
+      自动生成从mybatis mapper到dao层的增删改查代码，仅支持idea14以上版本
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+        实现了从mybatis从mapper到dao层的增删改查代码一键生成
     ]]>
   </change-notes>
 

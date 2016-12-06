@@ -12,6 +12,7 @@ public enum FieldType {
     BIGINT("BIGINT", "Long"),
     VARCHAR("VARCHAR", "String"),
     CHAR("CHAR", "String"),
+    TEXT("TEXT", "String"),
     TIMESTAMP("TIMESTAMP", "Timestamp");
 
     private final String jdbcType;

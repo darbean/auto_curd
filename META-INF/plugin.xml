@@ -2,14 +2,16 @@
   <id>lx</id>
   <name>AutoCurd</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="haola334@qq.com" url="none">xiao.liang</vendor>
 
   <description><![CDATA[
-      自动生成从mybatis mapper到dao层的增删改查代码，仅支持idea14以上版本
+      自动生成从mybatis mapper到dao层的增删改查代码，仅支持idea14以上版本.<br/>
+      Auto generate mybatis from mapper to dao level code. Just support uppon idea14 version.
     ]]></description>
 
   <change-notes><![CDATA[
-        实现了从mybatis从mapper到dao层的增删改查代码一键生成
+        实现了从mybatis从mapper到dao层的增删改查代码一键生成.<br/>
+        Auto generate mybatis from mapper to dao level code.
     ]]>
   </change-notes>
 

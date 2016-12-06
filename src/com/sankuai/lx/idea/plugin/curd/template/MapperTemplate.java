@@ -28,7 +28,7 @@ public class MapperTemplate implements CodeTemplate {
             "        INSERT INTO |tableName|(|tableFields|)\n" +
             "        VALUES\n" +
             "        <foreach collection=\"list\" item=\"item\" index=\"index\" separator=\",\">\n" +
-            "            (|paramFields|)\n" +
+            "            (|itemParamFields|)\n" +
             "        </foreach>\n" +
             "        ON DUPLICATE KEY UPDATE\n" +
             "        |batchInsertParams|\n" +

@@ -1,24 +1,22 @@
 package com.sankuai.lx.idea.plugin.curd.template.generator;
 
 import com.sankuai.lx.idea.plugin.curd.model.CodeInfo;
-import com.sankuai.lx.idea.plugin.curd.model.MapperInfo;
 import com.sankuai.lx.idea.plugin.db.model.TableField;
 import com.sankuai.lx.idea.plugin.utils.Constants;
 
 /**
- * Description: ParamFieldsGenerator
+ * Description: ItemParamFieldsGenerator
  * Author: liangxiao03
- * Create: 2016-02-24 13:43
+ * Create: 2016-12-06 15:52
  */
-public class ParamFieldsGenerator implements IMapperDataGenerator {
+public class ItemParamFieldsGenerator implements IMapperDataGenerator {
 
-    private final String TEMPLATE = "#{%s}";
-
+    private final String TEMPLATE = "#{item.%s}";
 
 
     @Override
     public String matcherName() {
-        return "|paramFields|";
+        return "|itemParamFields|";
     }
 
     @Override

@@ -7,4 +7,6 @@ package com.sankuai.lx.idea.plugin.utils;
  */
 public class Constants {
     public static final String QUOTA = ",";
+
+    public static final String NULL = "null";
 }

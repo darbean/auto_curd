@@ -16,6 +16,7 @@ public class MapperDataGeneratorFactory {
     static {
         mapperDataGenerators.add(new BatchInsertParamsGenerator());
         mapperDataGenerators.add(new ParamFieldsGenerator());
+        mapperDataGenerators.add(new ItemParamFieldsGenerator());
         mapperDataGenerators.add(new ResultMapFieldsGenerator());
         mapperDataGenerators.add(new RootPackageGenerator());
         mapperDataGenerators.add(new TableFieldsGenerator());

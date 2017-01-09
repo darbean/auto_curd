@@ -14,7 +14,7 @@ public enum FieldType {
     CHAR("CHAR", "String"),
     TEXT("LONGVARCHAR", "String"),
     TIMESTAMP("TIMESTAMP", "Timestamp"),
-    DATETIME("DATETIME", "Timestamp"),
+    DATETIME("TIMESTAMP", "Timestamp"),
     BLOB("BLOB", "String"),
     ;
 

@@ -14,7 +14,9 @@ public enum FieldType {
     CHAR("CHAR", "String"),
     TEXT("LONGVARCHAR", "String"),
     TIMESTAMP("TIMESTAMP", "Timestamp"),
-    DATETIME("DATETIME", "Timestamp");
+    DATETIME("DATETIME", "Timestamp"),
+    BLOB("BLOB", "String"),
+    ;
 
     private final String jdbcType;
     private final String javaType;

@@ -13,7 +13,8 @@ public enum FieldType {
     VARCHAR("VARCHAR", "String"),
     CHAR("CHAR", "String"),
     TEXT("LONGVARCHAR", "String"),
-    TIMESTAMP("TIMESTAMP", "Timestamp");
+    TIMESTAMP("TIMESTAMP", "Timestamp"),
+    DATETIME("DATETIME", "Timestamp");
 
     private final String jdbcType;
     private final String javaType;

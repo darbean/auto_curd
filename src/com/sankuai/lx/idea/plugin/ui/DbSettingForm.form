@@ -62,7 +62,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="mysqldev.vip.sankuai.com"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="2cc23" class="javax.swing.JTextField" binding="portField">
@@ -72,7 +72,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="5002"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="47ee4" class="javax.swing.JTextField" binding="usernameField">
@@ -82,7 +82,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="web"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="5d71f" class="javax.swing.JPasswordField" binding="passwordField">
@@ -92,7 +92,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="yT!O4LkfPT$3"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="4ec8b" class="javax.swing.JTextField" binding="databaseField">
@@ -102,7 +102,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="qcs_uc"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="6d7d7" class="javax.swing.JLabel" binding="warningLabel">

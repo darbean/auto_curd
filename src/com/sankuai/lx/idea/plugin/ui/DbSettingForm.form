@@ -128,7 +128,7 @@
               </grid>
             </constraints>
             <properties>
-              <text value="com.sankuai"/>
+              <text value=""/>
             </properties>
           </component>
           <component id="57e36" class="javax.swing.JButton" binding="nextButton" default-binding="true">

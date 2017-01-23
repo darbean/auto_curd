@@ -6,7 +6,9 @@
 
   <description><![CDATA[
       自动生成从mybatis mapper到dao层的增删改查代码，仅支持idea14以上版本.<br/>
-      Auto generate mybatis from mapper to dao level code. Just support uppon idea14 version.
+      使用方法及源码见https://github.com/haola334/auto_curd，欢迎提bug及patch.<br/>
+      Auto generate mybatis from mapper to dao level code. Just support uppon idea14 version.<br/>
+      This project is an open source, please see https://github.com/haola334/auto_curd.
     ]]></description>
 
   <change-notes><![CDATA[

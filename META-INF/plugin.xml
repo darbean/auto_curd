@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>lx</id>
   <name>AutoCurd</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="haola334@qq.com" url="none">xiao.liang</vendor>
 
   <description><![CDATA[

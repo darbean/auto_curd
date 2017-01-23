@@ -13,9 +13,9 @@
 
   <change-notes><![CDATA[
         实现了从mybatis从mapper到dao层的增删改查代码一键生成.<br/>
-        修复了不能识别datetime、text、blob类型的bug
-        Auto generate mybatis from mapper to dao level code.
-        Fix bug: unsupport datetime、text、blob type.
+        修复了不能识别datetime、text、blob类型的bug.<br/>
+        Auto generate mybatis from mapper to dao level code.<br/>
+        Fix bug: unsupport datetime、text、blob type.<br/>
     ]]>
   </change-notes>
 
